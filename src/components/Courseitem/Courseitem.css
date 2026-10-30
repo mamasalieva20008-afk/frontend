@@ -1,35 +1,74 @@
-
 .course-item {
-  width: 250px;
-  padding: 20px;
-  margin: 15px;
-  background-color: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 280px;
+  background-color: #fff;
+  border: 1px solid #e8e3dc;
   text-align: center;
-  font-family: Arial, sans-serif;
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+
+.course-item:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  position: relative;
+  height: 280px;
+  background-color: #f7f5f1;
+  padding: 15px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a8875b;
+}
+
+.product-info {
+  padding: 20px 15px;
+}
+
+.product-category {
+  color: #999;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .course-item h2 {
-  color: #6c63ff;
-  margin-bottom: 10px;
+  color: #222;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 12px 0;
 }
 
-.course-item p {
-  color: #555;
-  line-height: 1.5;
+.product-price {
+  color: #a8875b;
+  font-size: 19px;
+  font-weight: bold;
 }
 
-.course-item button {
-  background-color: #6c63ff;
+.add-to-cart {
+  width: 100%;
+  padding: 12px;
+  background-color: #171717;
   color: white;
   border: none;
-  border-radius: 6px;
-  padding: 10px 16px;
   cursor: pointer;
+  margin-top: 12px;
+  transition: 0.3s;
 }
 
-.course-item button:hover {
-  background-color: #5148d9;
+.add-to-cart:hover {
+  background-color: #a8875b;
 }

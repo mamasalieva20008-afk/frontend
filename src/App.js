@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import CourseItem from './components/CourseItem';
+import CourseItem from './components/Courseitem/Courseitem';
 
 function App() {
   const [cart, setCart] = useState([]);
